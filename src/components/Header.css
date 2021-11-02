@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: transparent;
+    transition: all ease 1.9s;
+}
+header.black {   
+    width: inherit;  
+    height: 100px;  
+    background: linear-gradient(to bottom, #1e568a 25%, #256DB1 50%, transparent 95%);  
+    transition: 0.9s ease-out 
+
+}
+.header--logo {
+    height: 45px;
+}
+.header--logo img {
+    height: 100%;
+    filter: brightness(1000%);
+}
+.header--logo:hover {
+    filter: brightness(10%);
+    transition: all 0.7s;
+}
+.header--user {
+    height: 48px;
+    opacity: 60%;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+.header--user:hover {
+    opacity: 1;
+}
+.header--user img {
+    height: 100%;
+}
