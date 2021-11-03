@@ -26,3 +26,5 @@ Ao rolar o Scroll vertical o usuário tem acesso a uma lista de filmes por gêne
 No canto superior direito da página está disponivel um icone para login de usuário, ainda não há funcionalidade ativa.
 As informações que o usuário poderá obter de cada filme em destaque são: 
 Título, pontuação, data de lançamento, (se for series) quantidade de temporadas, descrição e gênero.
+
+Acesso da página: https://quero-filmes.herokuapp.com/
