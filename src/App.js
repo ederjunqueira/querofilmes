@@ -59,6 +59,10 @@ export default () => {
       <footer>
           Fonte de dados do site Themoviedb.org
       </footer>
-    </div>
-  );
-};
+      {movieList.length <= 0 && 
+      <div className="loading">
+        <img src="https://i.pinimg.com/originals/d4/67/89/d46789ac9224fdaf9d8652cba6191f8e.gif" alt="Carregando" />
+      </div> }
+    </div> 
+  )
+}

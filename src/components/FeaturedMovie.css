@@ -4,12 +4,12 @@
 .featured--vertical {
     width: inherit;
     height: inherit;
-    background: linear-gradient(to top, #256DB1 5%, transparent 95%);
+    background: linear-gradient(to top, #1a87c5 5%, transparent 95%);
 }
 .featured--horizontal {
     width: inherit;
     height: inherit;
-    background: linear-gradient(to right, #256DB1 30%, transparent 70%);
+    background: linear-gradient(to right, #1a87c5 30%, transparent 70%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +38,7 @@
 .featured--description {
     margin-top: 15px;
     font-size: 20px;
-    color: #999;
+    color: #fff;
     max-width: 40%;
 }
 .featured--buttons {
@@ -73,5 +73,29 @@
 .featured--genres {
     margin-top: 15px;
     font-size: 18px;
-    color: #999;
+    color: #fff;
+}
+
+@media (max-width:760px) {
+    .featured {
+        height: 90vh;
+    }
+    .featured--name {
+        font-size: 40px;
+    }
+    .featured--info {
+        font-size: 16px;
+    }
+    .featured--description {
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    .featured--watchbutton,
+    .featured--mylistbutton {
+        font-size: 16px;
+    }
+    .featured--genres {
+        font-size: 14px;
+    }
 }

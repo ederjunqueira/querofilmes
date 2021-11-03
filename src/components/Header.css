@@ -15,7 +15,7 @@ header {
 header.black {   
     width: inherit;  
     height: 100px;  
-    background: linear-gradient(to bottom, #1e568a 25%, #256DB1 50%, transparent 95%);  
+    background: linear-gradient(to bottom, #1e568a 25%, #1a87c5 50%, transparent 95%);  
     transition: 0.9s ease-out 
 
 }
